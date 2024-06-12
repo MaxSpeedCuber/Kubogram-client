@@ -7,7 +7,7 @@ import styles from "../styles/Chat.module.css";
 import Messages from "./Messages";
 import {io} from "socket.io-client";
 
-const socket = io.connect("http://localhost:8000");
+const socket = io.connect(https://kubogram-server.onrender.com");
 
 const Chat = () => {
     const { search } = useLocation();
