@@ -97,6 +97,6 @@ const ,Chat = () => {
             </form>
         </div>
     );
-};
+},
 
 export default Chat;
