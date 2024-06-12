@@ -9,7 +9,7 @@ import {io} from "socket.io-client";
 
 const socket = io.connect(https://kubogram-server.onrender.com");
 
-const Chat = () => {
+const ,Chat = () => {
     const { search } = useLocation();
     const navigate = useNavigate();
     const [params, setParams] = useState({ room: "", user: "" });
