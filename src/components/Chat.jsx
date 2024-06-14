@@ -9,7 +9,7 @@ import {io} from "socket.io-client";
 
 
 //Гыыы
-const socket = io.connect("https://kubogram-server.netlify.app");
+const socket = io.connect("https://kubogram.onrender.com");
 
 
 
