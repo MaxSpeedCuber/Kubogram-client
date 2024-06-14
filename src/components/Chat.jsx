@@ -7,6 +7,8 @@ import styles from "../styles/Chat.module.css";
 import Messages from "./Messages";
 import {io} from "socket.io-client";
 
+
+//Гыыы
 const socket = io.connect(https://kubogram-server.onrender.com");
 
 const Chat = () => {
