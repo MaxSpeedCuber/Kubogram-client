@@ -11,6 +11,9 @@ import {io} from "socket.io-client";
 //Гыыы
 const socket = io.connect(https://kubogram-server.onrender.com");
 
+
+
+//Гыыыы
 const Chat = () => {
     const { search } = useLocation();
     const navigate = useNavigate();
